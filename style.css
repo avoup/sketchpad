@@ -1,0 +1,17 @@
+#wrap {
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  border: 1px solid green;
+}
+
+#wrap div {
+  height: 20px;
+  width: 20px;
+  background-color: grey;
+  float: left;
+}
+
+.block {
+  border: 0;
+}
