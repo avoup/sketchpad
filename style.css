@@ -1,17 +1,58 @@
 #wrap {
   margin: auto;
-  height: 600px;
-  width: 600px;
+  height: 500px;
+  width: 500px;
   border: 1px solid green;
+  background-color: purple;
 }
 
 #wrap div {
   height: 20px;
   width: 20px;
-  background-color: grey;
+  //background-color: #000;
   float: left;
 }
 
 .block {
   border: 0;
+  opacity: 1;
+  background-color: #000;
+}
+
+#buttons {
+  width: 192px;
+  height: 500px;
+  margin: 10px auto;
+}
+
+#color div {
+  height: 20px;
+  width: 20px;
+}
+
+#buttons a {
+  padding: 5px;
+  margin: 1px;
+  border: 3px solid #D3D3D3;
+  height: 6px;
+  width: 6px;
+  display: inline-block;
+}
+
+#buttons div:nth-child(1) {
+  background-color: white;
+}#buttons div:nth-child(2) {
+  background-color: black;
+}#buttons div:nth-child(3) {
+  background-color: blue;
+}#buttons div:nth-child(4) {
+  background-color: cyan;
+}#buttons div:nth-child(5) {
+  background-color: yellow;
+}#buttons div:nth-child(6) {
+  background-color: magenda;
+}#buttons div:nth-child(7) {
+  background-color: yellow;
+}#buttons:nth-child(8) {
+  background-color: purple;
 }
