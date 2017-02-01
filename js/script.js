@@ -1,4 +1,4 @@
-var size = 25;
+var size = 20;
 var color = "white";
 
 
@@ -8,11 +8,11 @@ $(document).ready(function(){
 		draw();
 
 		function draw(){
-      var mult = size * size;
-  		var squareSize = 500/size;
+      var mult = size * 2 * size;
+  		var squareSize = 270/size;
 
  			for(var i = 0; i < mult; i++){
-					$('#wrap').append('<div class="block"></div>');
+					$('#wrap').prepend('<div class="block"></div>');
   			}
 
       $('.block').mouseenter(function(){
@@ -53,19 +53,12 @@ $(document).ready(function(){
  	//------------------------------
 
 
-  for(var g = 0; g < 8; g++){
-
-  	$('#buttons').append('<a href="#" onclick="changeColor(); return false;"><div class="palette"></div></a>');
-    $('#buttons :nth-child('+ (g+3) + ')').css("background-color", color)
-  }
   //------------------------------
 
   	$('#wrap').css('background-color', color);
 
   	function changeColor(){
-    	color="white";
+    	color="purple";
     }
 
  });
-
- 

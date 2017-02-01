@@ -1,17 +1,54 @@
-#wrap {
+div#background {
   margin: auto;
-  height: 500px;
-  width: 500px;
-  border: 1px solid green;
+  width: 960px;
+  height: 490px;
+  background-image: url('img/classroom.jpg');
+  background-repeat: no-repeat;
+  padding-top: 36px;
+  padding-left: 240px;
+}
+
+#wrap {
+  //margin: 100px;
+  height: 270px;
+  width: 540px;
   background-color: purple;
+  float: left;
 }
 
 #wrap div {
   height: 20px;
   width: 20px;
-  //background-color: #000;
   float: left;
 }
+/*----------------------------------*/
+
+#wrap #top {
+  margin: -100px auto auto -10px;
+  width: 100px;
+  height: 30px;
+  padding-top: 7px;
+}
+#wrap #top img { border-bottom: 2px solid orange; border-top: 3px solid orange;}
+#wrap #bot {
+  margin: -55px auto auto -10px;
+  width: 100px;
+  height: 22px;
+}
+
+#wrap #desk {
+  margin: -33px auto auto -10px;
+  width: 105px;
+  height: 14px;
+  background-color: rgb(153, 128, 102);
+}
+#wrap #desk1 {
+  margin: -19px auto auto -10px;
+  width: 100px;
+  height: 20px;
+  background-color: rgb(165, 98, 82);
+}
+/*----------------------------------*/
 
 .block {
   border: 0;
@@ -20,9 +57,9 @@
 }
 
 #buttons {
-  width: 192px;
-  height: 500px;
-  margin: 10px auto;
+  width: 500px;
+  height: 30px;
+  margin: 500px 0px 0px auto;
 }
 
 #color div {
@@ -30,29 +67,8 @@
   width: 20px;
 }
 
-#buttons a {
-  padding: 5px;
-  margin: 1px;
-  border: 3px solid #D3D3D3;
-  height: 6px;
-  width: 6px;
-  display: inline-block;
-}
 
-#buttons div:nth-child(1) {
-  background-color: white;
-}#buttons div:nth-child(2) {
-  background-color: black;
-}#buttons div:nth-child(3) {
-  background-color: blue;
-}#buttons div:nth-child(4) {
-  background-color: cyan;
-}#buttons div:nth-child(5) {
-  background-color: yellow;
-}#buttons div:nth-child(6) {
-  background-color: magenda;
-}#buttons div:nth-child(7) {
-  background-color: yellow;
-}#buttons:nth-child(8) {
-  background-color: purple;
+/*----------------------------------*/
+#wrap #chalkWhite {
+
 }
